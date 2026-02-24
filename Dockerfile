@@ -5,5 +5,5 @@ RUN apt-get update && apt-get install -y maven sudo git && \
     useradd -m vscode && \
     echo "vscode ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
-WORKDIR /workspaces/e-reading-tool
+WORKDIR /workspaces/fe-reading-tool
 USER vscode
